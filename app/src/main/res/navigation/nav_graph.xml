@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/biometricFragment">
+
+    <fragment
+        android:id="@+id/biometricFragment"
+        android:name="com.momen.football.presentation.view.BiometricFragment"
+        android:label="CompetitionListFragment" >
+        <action
+            android:id="@+id/action_biometricFragment_to_competitionListFragment"
+            app:destination="@id/competitionListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/competitionListFragment"
+        android:name="com.momen.football.presentation.view.CompetitionListFragment"
+        android:label="CompetitionListFragment" />
+</navigation>

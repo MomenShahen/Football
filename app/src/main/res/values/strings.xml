@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Football</string>
+    <string name="no_internet_image">No Internet Connection</string>
+    <string name="Oh_no_string">Lost Internet Connection</string>
+    <string name="please_authenticate_yourself">Please authenticate yourself</string>
+    <string name="biometric_error_message">Too many attempt</string>
+</resources>
